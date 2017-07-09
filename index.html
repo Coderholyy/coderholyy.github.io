@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>MOBILE</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="crossorigin="anonymous">
+		</script>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/styl.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<script src="js/layout.js"></script>
+		<script src="js/homeback.js"></script>
+		<script src="js/clock.js"></script>
+		
+
+	</head>
+
+	<body onload="clock();">
+
+<!-- Notification bar-->		
+		<div class="container">
+			<div class="modal" id="drop">
+				<div class="modal-content" id="b">
+					<div class="bar">
+							<p>(Click here to toggle) Notification bar</p>
+
+					</div>
+				</div>
+				<div class="modal-content" id="d">	
+					
+						<div class="page-header">
+							    <h3>Recent Notifications</h3>      
+						 </div>
+
+						<div class="dd">
+							<ul>
+								<li>Blog created on 13/07/2017</li>
+								
+							</ul>	
+
+						</div>
+						<h2><pre>Check in for further updates</pre></h2>
+					
+				</div>					
+					
+						<div class="page-footer">
+							<h4>Mobile <i class="fa fa-tablet"></i> Version 1.0.0.1</h4>
+							<h5>Copyright <span class="glyphicon glyphicon-copyright-mark"></span> Sudheendra</h5>
+						</div>
+
+			</div>
+		</div>
+
+<!-- nav bar -->		
+			<nav class="navbar navbar-inverse"> 
+				 <div class="container-fluid">
+				 	<ul class="nav navbar-nav navbar-left" id="brand">
+				 		<li class="active"><a href="#">Coderholyy</a></li>
+				 	</ul>
+				    <ul class="nav navbar-nav navbar-right">
+			      			<li class="active"><a href="#"><i class="fa fa-wifi"></i></a></li>
+			      			<li class="active"><a href="#">4G <span class="glyphicon glyphicon-signal"></span></a></li>
+				    		<li class="active"><a href="#"><i class="fa fa-battery-three-quarters"></i> 99%</a></li>
+				    		<li class="active"><a href="#"><div id="time"></div></span></a></li>
+			      			<li id="n"><a href="#"><span class="glyphicon glyphicon-cog"></span></a></li>				    
+				    </ul>
+			  </div>
+			</nav>
+			
+			<div class="welcome">
+				<h1 id="my">it's &nbsp;My &nbsp;<strong>BLOG</strong></h1>
+
+			</div>
+			
+			<a href="#"><img id="link" src="images/m2.png"></a>
+
+<!-- Menu strt -->	
+		
+	<div class="container">
+			<div class="modal" id="menu">
+				<div class="modal-content" id="m">
+					<div class="modal-header"><a href="#" class="close" data-dismiss="modal" aria-label="close">&times;</a></div>
+
+						<div class="container" id="apps">
+								
+								<ul class="nav nav-tabs">
+								    <li class="active"><a data-toggle="tab" href="#home">Coding Blog</a></li>
+								    <li><a data-toggle="tab" href="#menu1">Projects</a></li>
+								    <li><a data-toggle="tab" href="#menu2">About</a></li>
+								  </ul><br><br>
+
+							  <div class="tab-content">
+							   
+							    <div id="home" class="tab-pane fade in active">   
+							      <div class="page-header">
+								    <h3>Coding Blog</h3>      
+								 </div>
+							     	 <div class="row">
+											  	<div class="col-md-3"><a href="codingblog/whytocode.html"><i class="fa fa-code fa-3x"></i>
+											  		<div class="caption center-block">Why to code?</a></div>
+											  	</div>
+											  	<div class="col-md-3"><a href="codingblog/resources.html"><i class="fa fa-file-code-o fa-3x"></i>
+											  		<div class="caption center-block">Resources</a></div>
+											  	</div>
+											  	<div class="col-md-3"><a href="codingblog/datastruct.html"><i class="fa fa-paperclip fa-3x"></i>
+											  		<div class="caption center-block">Data Structures</a></div>
+											  	</div>
+											  	<div class="col-md-3"><a href="codingblog/tips.html"><i class="fa fa-star fa-3x"></i>
+											  		<div class="caption center-block">Tips and tricks</a></div>
+											  	</div>
+										</div>
+							    </div>
+
+							    <div id="menu1" class="tab-pane fade">
+							      		<div class="page-header">
+											   <h3>Projects</h3>      
+										</div>
+									       <div class="row">
+											  	<div class="col-md-12"><a href="https://public-opinion.000webhostapp.com/"><i class="fa fa-globe fa-3x"></i>
+											  		<div class="caption center-block">Pubilc-Opinion</a></div>
+											  	</div>
+								<!--			  	<div class="col-md-4"><a href="#"><i class="fa fa-desktop fa-3x"></i>
+											  		<div class="caption center-block">Adress</a></div>
+											  	</div>
+											  	<div class="col-md-4"><a href="#"><i class="fa fa-trophy fa-3x"></i>
+											  		<div class="caption center-block">Adress</a></div>
+											  	</div>
+								-->			  	
+										  </div>
+							    </div>
+
+							    <div id="menu2" class="tab-pane fade">
+							      <div class="page-header">
+								    <h3>About</h3>      
+								 </div>
+							      <div class="row">
+								  	<div class="col-md-4"><a href="about/info.html"><i class="fa fa-info-circle fa-3x"></i>
+								  		<div class="caption center-block">Info</a></div>
+								  	</div>
+								  	<div class="col-md-4"><a href="about/achievements.html"><i class="fa fa-graduation-cap fa-3x"></i>
+								  		<div class="caption center-block">Achievements</a></div>
+								  	</div>
+								  	<div class="col-md-4"><a href="about/interests.html"><i class="fa fa-user-circle fa-3x"></i>
+								  		<div class="caption center-block">Interests</a></div>
+								  	</div>
+								  </div>
+							    </div>
+							
+					     </div>				    
+							 							          
+						</div>
+					</div>
+						<div class="page-footer">
+									<h4>Mobile Version 1.0.0.1</h4>
+									<h5>Copyright <span class="glyphicon glyphicon-copyright-mark"></span> Sudheendra</h5>
+						</div>
+			</div> 
+		</div>	
+
+
+<!--Menu end-->
+
+	<div class="back">
+		<button id="backbutton" onclick= "goBack()"><span class="glyphicon glyphicon-triangle-left"></span></button> 
+		<a href="index.html"><span class="glyphicon glyphicon-home"></span></a> 
+		<a href="#"><span class="glyphicon glyphicon-unchecked"></span></a> 
+	</div>
+
+<!-- Side Menu -->
+	
+	<div class="right">
+		<ul class="nav nav-pills nav-stacked">
+		  <li role="presentation"><a href="https://plus.google.com/u/1/111014485938392136733"><i class="fa fa-google-plus fa-lg"></i></a></li>
+		  <li role="presentation"><a href="https://github.com/Coderholyy"><i class="fa fa-github fa-lg"></i></a></li>
+		  <li role="presentation"><a href="#"><i class="fa fa-dropbox fa-lg"></i></a></li>
+		  <li role="presentation"><a href="https://stackoverflow.com/users/6823490/nss"><i class="fa fa-stack-overflow fa-lg"></i></a></li>
+		  <li role="presentation"><a href="https://www.quora.com/profile/Shanmukh-Sudheendra"><i class="fa fa-quora fa-lg"></i></a></li>
+		  <li role="presentation"><a href="https://www.instagram.com/nssudhee/"><i class="fa fa-instagram fa-lg"></i></a></li>
+		  <li role="presentation"><a href="https://twitter.com/dheendranss"><i class="fa fa-twitter fa-lg"></i></a></li>
+		  <li role="presentation"><a href="https://www.facebook.com/shanmukh.sudheendra"><i class="fa fa-facebook-square fa-lg"></i></a></li>
+		  <li role="presentation"><a href="https://www.youtube.com/channel/UCy1jc0ok_j1clEXwXCEXJkg"><i class="fa fa-youtube fa-lg"></i></a></li>
+		</ul>
+	</div>
+
+
+	
+
+	</body>
+</html>

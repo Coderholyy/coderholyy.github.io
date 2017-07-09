@@ -1,0 +1,253 @@
+body{
+    background-image: url("../images/wl1.png");
+    background-size: cover;
+}
+
+.navbar{
+    background-color: black;
+    margin-left: -1em;
+
+}
+
+.navbar #brand{
+    font-family: Comic Sans MS;
+}
+
+#drop , #menu{
+	display: none;
+}
+
+.welcome{
+    position: absolute;
+    margin: 0 auto;
+    top: 10%;
+    left: 38%;
+    color: white;
+    font-family: Comic Sans MS;
+
+}
+
+#link{
+    position: absolute;
+    width: 7%;
+    bottom: 10px;
+    left: 45%;
+}
+
+
+.modal {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+}
+
+/* Notification bar */
+
+#b{
+    position: relative;
+    margin: 0 auto;
+    height: 8%;
+    background-color: #696969 ;
+    padding-top: 1%; 
+    width: 65%;   
+    text-align: center;
+    
+}
+
+#d{
+    display: none;
+    position: relative;
+    margin: 0 auto;
+    height: 85%;
+    background-color: white ;
+    margin-top: 1%;
+    padding-top: 1%;
+    overflow-x: hidden;
+    width: 55%;   
+ 
+}
+
+
+.page-footer{
+   color: white;
+   position: absolute;
+   bottom: 0%;
+   right: 0%;
+}
+
+.page-header ,pre{
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-family: Comic Sans MS;
+}
+
+
+
+.modal-content .bar{
+    color: white;
+}
+
+.modal-content .dd a{
+    color: white;
+}
+
+/* Menu */
+
+#m{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 4%;
+    padding-top: 1%;
+    background-color:   #fffade;
+    height: 80%;
+    width: 90%;
+   overflow: auto;
+}
+
+#m .modal-header{
+    border-bottom: none;
+}
+
+#my{
+    display: none;
+}
+
+
+#apps{
+    text-align: center;
+}
+
+
+#apps .page-header {
+  /*  border-color: #aaa; */
+    border-bottom: none;
+    color: red;
+    font-family: Comic Sans MS;
+
+}
+
+#apps ul{
+    padding-left: 20%;
+}
+
+#apps ul li{
+    padding-left: 10%;
+}
+
+.page-header:hover{
+   
+}
+
+.row{
+    padding: 1%;
+    height: 2%;
+    margin-bottom: 1em;
+}
+
+.col-md-4, .col-md-3{
+    padding: 0.5%;
+    height: 6em;
+}
+
+.col-md-3 a, .col-md-4 a, .col-md-12 a{
+    color: black;
+}
+
+.caption{
+     font-family: verdana;
+}
+
+
+#apps .fa:hover{
+    opacity: .5;
+    cursor: pointer;
+    font-size: 3.5em;
+
+}
+
+ .caption:hover{
+    opacity: .8;
+    cursor: pointer;
+   
+ }
+
+/* Back home bar*/
+ .back{
+    display: none;
+    background-color: gainsboro;
+    text-align: center;
+    opacity: .8;
+    bottom: 0%;
+    position: fixed;
+    width: 100%;
+    margin: 0 0 0 0;
+
+}
+
+.back a{
+    text-decoration: none;
+    color: black;
+    margin-left: 100px;
+    font-size: 2em;
+}
+
+ #backbutton {
+  font-size: 2em;
+  color: black;
+  outline: none;
+  border: none;
+  cursor: pointer;
+} 
+
+/* Right bar */
+
+.right{
+    display: none;
+    position: fixed;
+    top:20%;
+    right: 0;
+    padding-bottom: 4%;
+}
+
+.right .nav{
+    background-color: gainsboro;
+    border-radius: 3%;
+}
+
+.right .nav a{
+    color: black;
+}
+
+/* data area */
+.matter{
+    background-color: white;
+    margin: 0 auto;
+    width: 70%;
+    height: 80%;
+    overflow: auto;
+    word-wrap: break-word;
+    
+}
+
+.matter p{
+    padding-left: 5%;
+    font-size: 1.3em;
+}
+
+.matter img{
+    width: 40%;
+
+} 
+
+.matter #me{
+    border-bottom: none;
+}
+
