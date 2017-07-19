@@ -29,16 +29,30 @@
 		<!-- nav bar -->		
 			<nav class="navbar navbar-inverse"> 
 				 <div class="container-fluid">
-				 	<ul class="nav navbar-nav navbar-left" id="brand">
-				 		<li class="active"><a href="#">Coderholyy</a></li>
-				 	</ul>
-				    <ul class="nav navbar-nav navbar-right">
+				 	<div class="navbar-header">
+				    	 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>                        
+					      </button>	
+					    
+					       <a class="navbar-brand" href="#" id="brand">Coderholyy</a></li>
+				    </div>
+<!--
+	<ul class="nav navbar-nav navbar-left" id="brand">
+						 		<li class="active"><a href="#">Coderholyy</a></li>
+						 	</ul>
+								      	
+-->				 	
+				    <div class="collapse navbar-collapse" id="mynav">
+				    	<ul class="nav navbar-nav navbar-right">
 			      			<li class="active"><a href="#"><i class="fa fa-wifi"></i></a></li>
 			      			<li class="active"><a href="#">4G <span class="glyphicon glyphicon-signal"></span></a></li>
 				    		<li class="active"><a href="#"><i class="fa fa-battery-three-quarters"></i> 99%</a></li>
 				    		<li class="active"><a href="#"><div id="time"></div></span></a></li>
 			      			<li id="n"><a href="#"><span class="glyphicon glyphicon-cog"></span></a></li>				    
-				    </ul>
+				    	</ul>
+					</div>
 			  </div>
 			</nav>
 			
